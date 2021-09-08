@@ -132,13 +132,14 @@ html {
       position: absolute;
       top: 0;
       right: 50%;
-      transform: translateX(45%) translateY(10%) scale(90%);
+      transform: translateX(45%) translateY(-50%) scale(90%);
+    }
+    .img2 {
+      display: none;
     }
     .row {
       flex-direction: column;
-      .img2 {
-        display: none;
-      }
+
       .col {
         width: 100%;
         .img1 {

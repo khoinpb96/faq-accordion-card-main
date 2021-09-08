@@ -151,17 +151,17 @@ html {
     position: absolute;
     top: 0;
     right: 50%;
-    -webkit-transform: translateX(45%) translateY(10%) scale(90%);
-            transform: translateX(45%) translateY(10%) scale(90%);
+    -webkit-transform: translateX(45%) translateY(-50%) scale(90%);
+            transform: translateX(45%) translateY(-50%) scale(90%);
+  }
+  .container .img2 {
+    display: none;
   }
   .container .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .container .row .img2 {
-    display: none;
   }
   .container .row .col {
     width: 100%;
